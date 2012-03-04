@@ -1,0 +1,102 @@
+17:50:04 T:140188568713248 M:396054528  NOTICE: -----------------------------------------------------------------------
+17:50:04 T:140188568713248 M:395935744  NOTICE: Starting XBMC, Platform: Linux (Arch Linux, 3.0-ARCH x86_64). Built on Sep 17 2011 (Git:Unknown)
+17:50:04 T:140188568713248 M:395935744  NOTICE: special://xbmc/ is mapped to: /usr/share/xbmc
+17:50:04 T:140188568713248 M:395935744  NOTICE: special://xbmcbin/ is mapped to: /usr/lib/xbmc
+17:50:04 T:140188568713248 M:395935744  NOTICE: special://masterprofile/ is mapped to: /home/myvdr/.xbmc/userdata
+17:50:04 T:140188568713248 M:395935744  NOTICE: special://home/ is mapped to: /home/myvdr/.xbmc
+17:50:04 T:140188568713248 M:395935744  NOTICE: special://temp/ is mapped to: /home/myvdr/.xbmc/temp
+17:50:04 T:140188568713248 M:395935744  NOTICE: The executable running is: /usr/lib/xbmc/xbmc.bin
+17:50:04 T:140188568713248 M:395935744  NOTICE: Log File is located: /home/myvdr/.xbmc/temp/xbmc.log
+17:50:04 T:140188568713248 M:395935744  NOTICE: -----------------------------------------------------------------------
+17:50:04 T:140188568713248 M:395943936  NOTICE: Setup SDL
+17:50:05 T:140188568713248 M:395268096  NOTICE: load settings...
+17:50:05 T:140188568713248 M:395268096  NOTICE: special://profile/ is mapped to: special://masterprofile/
+17:50:05 T:140188568713248 M:395141120  NOTICE: loading special://masterprofile/guisettings.xml
+17:50:05 T:140188568713248 M:395014144  NOTICE: Getting hardware information now...
+17:50:05 T:140188568713248 M:395014144  NOTICE: Checking resolution 12
+15:50:05 T:140188568713248 M:395014144  NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+15:50:05 T:140188568713248 M:395014144  NOTICE: Loaded playercorefactory configuration
+15:50:05 T:140188568713248 M:395014144  NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+15:50:05 T:140188568713248 M:395014144  NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+15:50:05 T:140188568713248 M:395014144  NOTICE: No advancedsettings.xml to load (special://masterprofile/advancedsettings.xml)
+15:50:05 T:140188568713248 M:395014144  NOTICE: Default DVD Player: dvdplayer
+15:50:05 T:140188568713248 M:395014144  NOTICE: Default Video Player: dvdplayer
+15:50:05 T:140188568713248 M:395014144  NOTICE: Default Audio Player: paplayer
+15:50:05 T:140188568713248 M:395014144  NOTICE: Loading media sources from special://masterprofile/sources.xml
+15:50:05 T:140188568713248 M:393334784  NOTICE: Enabled Joystick: VirtualBox USB Tablet
+15:50:05 T:140188568713248 M:393334784  NOTICE: Details: Total Axis: 2 Total Hats: 0 Total Buttons: 5
+15:50:05 T:140188568713248 M:377716736  NOTICE: Using visual 0x119
+15:50:05 T:140188568713248 M:377831424  NOTICE: GL_VENDOR = Humper
+15:50:05 T:140188568713248 M:377831424  NOTICE: GL_RENDERER = Chromium
+15:50:05 T:140188568713248 M:377831424  NOTICE: GL_VERSION = 2.1 Chromium 1.9
+15:50:05 T:140188568713248 M:377831424  NOTICE: GL_SHADING_LANGUAGE_VERSION = 1.20
+15:50:05 T:140188568713248 M:377831424  NOTICE: GL_EXTENSIONS = GL_EXT_draw_range_elements GL_EXT_framebuffer_object GL_EXT_compiled_vertex_array GL_ARB_depth_texture GL_ARB_fragment_program GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_shadow GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_EXT_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_EXT_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_texture_non_power_of_two GL_ARB_transpose_matrix GL_ARB_vertex_buffer_object GL_ARB_pixel_buffer_object GL_ARB_vertex_program GL_ARB_window_pos GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_func_separate GL_EXT_blend_logic_op GL_EXT_blend_subtract GL_EXT_texture_env_add GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_EXT_texture_object GL_EXT_texture3D GL_IBM_rasterpos_clip GL_NV_texgen_reflection GL_NV_texture_rectangle GL_EXT_texture_rectangle GL_ARB_texture_rectangle GL_NV_vertex_program GL_NV_vertex_program1_1 GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_ARB_shading_language_100 GL_ARB_shader_objects GL_ARB_vertex_shader GL_ARB_fragment_shader GL_EXT_texture_sRGB GL_EXT_framebuffer_blit GL_EXT_blend_equation_separate GL_EXT_stencil_two_side GL_CR_state_parameter GL_CR_cursor_position GL_CR_bounding_box GL_CR_print_string GL_CR_tilesort_info GL_CR_synchronization GL_CR_head_spu_name GL_CR_performance_info GL_CR_window_size GL_CR_tile_info GL_CR_saveframe GL_CR_readback_barrier_size GL_CR_server_id_sharing GL_CR_server_matrix  GL_EXT_stencil_two_side
+15:50:05 T:140188568713248 M:377831424   ERROR: GLX: Same window as before, refreshing context
+15:50:05 T:140188568713248 M:376508416  NOTICE: start dvd mediatype detection
+15:50:05 T:140188568713248 M:376508416  NOTICE: initializing playlistplayer
+15:50:05 T:140188568713248 M:376508416  NOTICE: DONE initializing playlistplayer
+15:50:05 T:140188568713248 M:370114560  NOTICE: initialize done
+15:50:05 T:140188568713248 M:370114560  NOTICE: Running the application...
+15:50:05 T:140188568713248 M:370114560  NOTICE: ES: Starting event server
+15:50:05 T:140188568713248 M:370114560  NOTICE: DS: Starting dbus server
+15:50:05 T:140188126799616 M:369274880  NOTICE: ES: Starting UDP Event server on 127.0.0.1:9777
+15:50:05 T:140188126799616 M:368697344  NOTICE: UDP: Listening on port 9777
+15:50:05 T:140188118406912 M:369684480  NOTICE: DS: Starting DBUS server in Run Application aka thread
+15:50:20 T:140188568713248 M:355868672   ERROR: GLX: Same window as before, refreshing context
+15:50:39 T:140188568713248 M:367013888   ERROR: Previous line repeats 1 times.
+15:50:39 T:140188568713248 M:367013888   ERROR: PulseAudio: Failed to connect context
+15:50:39 T:140188568713248 M:367013888   ERROR: PulseAudio: Failed to create context
+15:50:39 T:140188568713248 M:367013888 WARNING: Failed to find previously selected audio sink
+15:50:39 T:140188568713248 M:367013888   ERROR: PulseAudio: Failed to connect context
+15:50:39 T:140188568713248 M:367013888   ERROR: PulseAudio: Failed to create context
+15:50:39 T:140188568713248 M:367013888 WARNING: Failed to find previously selected audio sink
+15:50:40 T:140188568713248 M:367022080   ERROR: PulseAudio: Failed to connect context
+15:50:40 T:140188568713248 M:367022080   ERROR: PulseAudio: Failed to create context
+15:50:40 T:140188568713248 M:367022080 WARNING: Failed to find previously selected audio sink
+15:50:40 T:140188568713248 M:367022080   ERROR: PulseAudio: Failed to connect context
+15:50:40 T:140188568713248 M:367022080   ERROR: PulseAudio: Failed to create context
+15:50:40 T:140188568713248 M:367022080 WARNING: Failed to find previously selected audio sink
+15:50:41 T:140188568713248 M:366895104   ERROR: PulseAudio: Failed to connect context
+15:50:41 T:140188568713248 M:366895104   ERROR: PulseAudio: Failed to create context
+15:50:41 T:140188568713248 M:366895104 WARNING: Failed to find previously selected audio sink
+15:50:41 T:140188568713248 M:366895104   ERROR: PulseAudio: Failed to connect context
+15:50:41 T:140188568713248 M:366895104   ERROR: PulseAudio: Failed to create context
+15:50:41 T:140188568713248 M:366895104 WARNING: Failed to find previously selected audio sink
+15:50:43 T:140188568713248 M:366903296   ERROR: PulseAudio: Failed to connect context
+15:50:43 T:140188568713248 M:366903296   ERROR: PulseAudio: Failed to create context
+15:50:43 T:140188568713248 M:366903296 WARNING: Failed to find previously selected audio sink
+15:50:43 T:140188568713248 M:366837760   ERROR: PulseAudio: Failed to connect context
+15:50:43 T:140188568713248 M:366837760   ERROR: PulseAudio: Failed to create context
+15:50:43 T:140188568713248 M:366837760 WARNING: Failed to find previously selected audio sink
+15:50:47 T:140188568713248 M:366882816   ERROR: PulseAudio: Failed to connect context
+15:50:47 T:140188568713248 M:366882816   ERROR: PulseAudio: Failed to create context
+15:50:47 T:140188568713248 M:366882816 WARNING: Failed to find previously selected audio sink
+15:50:47 T:140188568713248 M:366874624   ERROR: PulseAudio: Failed to connect context
+15:50:47 T:140188568713248 M:366874624   ERROR: PulseAudio: Failed to create context
+15:50:47 T:140188568713248 M:366874624 WARNING: Failed to find previously selected audio sink
+15:50:57 T:140188568713248 M:362610688   ERROR: PulseAudio: Failed to connect context
+15:50:57 T:140188568713248 M:362610688   ERROR: PulseAudio: Failed to create context
+15:50:57 T:140188568713248 M:362610688 WARNING: Failed to find previously selected audio sink
+15:50:57 T:140188568713248 M:362483712   ERROR: PulseAudio: Failed to connect context
+15:50:57 T:140188568713248 M:362483712   ERROR: PulseAudio: Failed to create context
+15:50:57 T:140188568713248 M:362483712 WARNING: Failed to find previously selected audio sink
+15:50:59 T:140188568713248 M:362491904   ERROR: PulseAudio: Failed to connect context
+15:50:59 T:140188568713248 M:362491904   ERROR: PulseAudio: Failed to create context
+15:50:59 T:140188568713248 M:362491904 WARNING: Failed to find previously selected audio sink
+15:50:59 T:140188568713248 M:362483712   ERROR: PulseAudio: Failed to connect context
+15:50:59 T:140188568713248 M:362483712   ERROR: PulseAudio: Failed to create context
+15:50:59 T:140188568713248 M:362483712 WARNING: Failed to find previously selected audio sink
+15:51:22 T:140188568713248 M:361590784  NOTICE: Storing total System Uptime
+15:51:22 T:140188568713248 M:361590784  NOTICE: Saving settings
+15:51:22 T:140188568713248 M:361590784  NOTICE: stop all
+15:51:22 T:140188568713248 M:361590784  NOTICE: ES: Stopping event server
+15:51:22 T:140188126799616 M:361623552  NOTICE: ES: UDP Event server stopped
+15:51:22 T:140188118406912 M:361623552  NOTICE: DS: DBUS server stopped
+15:51:22 T:140188568713248 M:361758720  NOTICE: stop dvd detect media
+15:51:22 T:140188568713248 M:361758720  NOTICE: stop sap announcement listener
+15:51:22 T:140188568713248 M:361758720  NOTICE: clean cached files!
+15:51:22 T:140188568713248 M:361758720  NOTICE: unload skin
+15:51:22 T:140188568713248 M:361816064  NOTICE: stop python
+15:51:22 T:140188568713248 M:363212800  NOTICE: stopped
+15:51:22 T:140188568713248 M:363212800  NOTICE: destroy
+15:51:22 T:140188568713248 M:363212800  NOTICE: unload sections

@@ -1,0 +1,520 @@
+<settings>
+    <mymusic>
+        <playlist>
+            <repeat>false</repeat>
+            <shuffle>false</shuffle>
+        </playlist>
+        <scanning>
+            <isscanning>false</isscanning>
+        </scanning>
+        <startwindow>10501</startwindow>
+        <songinfoinvis>true</songinfoinvis>
+        <songthumbinvis>false</songthumbinvis>
+        <defaultlibview pathversion="1"></defaultlibview>
+    </mymusic>
+    <myvideos>
+        <startwindow>10024</startwindow>
+        <stackvideomode>0</stackvideomode>
+        <defaultlibview pathversion="1"></defaultlibview>
+        <watchmodemovies>0</watchmodemovies>
+        <watchmodetvshows>0</watchmodetvshows>
+        <watchmodemusicvideos>0</watchmodemusicvideos>
+        <flatten>false</flatten>
+        <playlist>
+            <repeat>false</repeat>
+            <shuffle>false</shuffle>
+        </playlist>
+        <cleanstrings>false</cleanstrings>
+        <extractflags>true</extractflags>
+        <extractthumb>true</extractthumb>
+        <selectaction>1</selectaction>
+        <treatstackasfile>true</treatstackasfile>
+    </myvideos>
+    <viewstates>
+        <musicnavartists>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </musicnavartists>
+        <musicnavalbums>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </musicnavalbums>
+        <musicnavsongs>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </musicnavsongs>
+        <musiclastfm>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </musiclastfm>
+        <videonavactors>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavactors>
+        <videonavyears>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavyears>
+        <videonavgenres>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavgenres>
+        <videonavtitles>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavtitles>
+        <videonavepisodes>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavepisodes>
+        <videonavseasons>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavseasons>
+        <videonavtvshows>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavtvshows>
+        <videonavmusicvideos>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavmusicvideos>
+        <programs>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </programs>
+        <pictures>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </pictures>
+        <videofiles>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videofiles>
+        <musicfiles>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </musicfiles>
+    </viewstates>
+    <general>
+        <systemtotaluptime>1</systemtotaluptime>
+        <httpapibroadcastport>8278</httpapibroadcastport>
+        <httpapibroadcastlevel>0</httpapibroadcastlevel>
+        <addonautoupdate>true</addonautoupdate>
+        <addonnotifications>true</addonnotifications>
+    </general>
+    <defaultvideosettings>
+        <interlacemethod>0</interlacemethod>
+        <scalingmethod>1</scalingmethod>
+        <noisereduction>0.000000</noisereduction>
+        <sharpness>0.000000</sharpness>
+        <viewmode>0</viewmode>
+        <zoomamount>1.000000</zoomamount>
+        <pixelratio>1.000000</pixelratio>
+        <volumeamplification>0.000000</volumeamplification>
+        <outputtoallspeakers>false</outputtoallspeakers>
+        <showsubtitles>true</showsubtitles>
+        <brightness>50.000000</brightness>
+        <contrast>50.000000</contrast>
+        <gamma>20.000000</gamma>
+        <audiodelay>0.000000</audiodelay>
+        <subtitledelay>0.000000</subtitledelay>
+        <autocrop>false</autocrop>
+        <nonlinstretch>false</nonlinstretch>
+    </defaultvideosettings>
+    <audio>
+        <volumelevel>0</volumelevel>
+        <dynamicrangecompression>0</dynamicrangecompression>
+    </audio>
+    <resolutions>
+        <resolution>
+            <description>Windowed</description>
+            <subtitles>718</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <refreshrate>0.000000</refreshrate>
+            <output></output>
+            <xrandrid></xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1024</right>
+                <bottom>745</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>1024x768 @ 60.00 - Full Screen</description>
+            <subtitles>741</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <refreshrate>59.999748</refreshrate>
+            <output>VBOX0</output>
+            <xrandrid>0x40</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1024</right>
+                <bottom>768</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>VBOX0: 1024x768 @ 60.00Hz</description>
+            <subtitles>729</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <refreshrate>59.999748</refreshrate>
+            <output>VBOX0</output>
+            <xrandrid>0x40</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1024</right>
+                <bottom>768</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>VBOX0: 800x600 @ 60.00Hz</description>
+            <subtitles>570</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <refreshrate>59.999668</refreshrate>
+            <output>VBOX0</output>
+            <xrandrid>0x41</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>800</right>
+                <bottom>600</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>VBOX0: 640x480 @ 60.00Hz</description>
+            <subtitles>456</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <refreshrate>59.998852</refreshrate>
+            <output>VBOX0</output>
+            <xrandrid>0x42</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>640</right>
+                <bottom>480</bottom>
+            </overscan>
+        </resolution>
+    </resolutions>
+    <audiocds>
+        <autorun>false</autorun>
+        <bitrate>192</bitrate>
+        <compressionlevel>5</compressionlevel>
+        <encoder>0</encoder>
+        <quality>0</quality>
+        <recordingpath pathversion="1">select writable folder</recordingpath>
+        <trackpathformat>%A - %B/[%N. ][%A - ]%T</trackpathformat>
+        <usecddb>true</usecddb>
+    </audiocds>
+    <audiooutput>
+        <ac3passthrough>true</ac3passthrough>
+        <audiodevice>default</audiodevice>
+        <channellayout>0</channellayout>
+        <customdevice></customdevice>
+        <custompassthrough></custompassthrough>
+        <dontnormalizelevels>true</dontnormalizelevels>
+        <dtspassthrough>true</dtspassthrough>
+        <mode>0</mode>
+        <passthroughaac>false</passthroughaac>
+        <passthroughdevice>iec958</passthroughdevice>
+        <passthroughmp1>false</passthroughmp1>
+        <passthroughmp2>false</passthroughmp2>
+        <passthroughmp3>false</passthroughmp3>
+    </audiooutput>
+    <cache>
+        <harddisk>256</harddisk>
+    </cache>
+    <cacheaudio>
+        <dvdrom>256</dvdrom>
+        <internet>256</internet>
+        <lan>256</lan>
+    </cacheaudio>
+    <cachedvd>
+        <dvdrom>2048</dvdrom>
+        <lan>2048</lan>
+    </cachedvd>
+    <cacheunknown>
+        <internet>4096</internet>
+    </cacheunknown>
+    <cachevideo>
+        <dvdrom>2048</dvdrom>
+        <internet>4096</internet>
+        <lan>2048</lan>
+    </cachevideo>
+    <debug>
+        <screenshotpath pathversion="1">select writable folder</screenshotpath>
+        <showloginfo>false</showloginfo>
+    </debug>
+    <dvds>
+        <automenu>false</automenu>
+        <autorun>false</autorun>
+        <playerregion>0</playerregion>
+    </dvds>
+    <filelists>
+        <allowfiledeletion>false</allowfiledeletion>
+        <ignorethewhensorting>true</ignorethewhensorting>
+        <showaddsourcebuttons>true</showaddsourcebuttons>
+        <showextensions>true</showextensions>
+        <showhidden>false</showhidden>
+        <showparentdiritems>true</showparentdiritems>
+    </filelists>
+    <input>
+        <enablemouse>false</enablemouse>
+        <remoteaskeyboard>false</remoteaskeyboard>
+    </input>
+    <karaoke>
+        <autopopupselector>false</autopopupselector>
+        <charset>DEFAULT</charset>
+        <enabled>false</enabled>
+        <export></export>
+        <font>arial.ttf</font>
+        <fontcolors>0</fontcolors>
+        <fontheight>36</fontheight>
+        <importcsv></importcsv>
+    </karaoke>
+    <locale>
+        <charset>DEFAULT</charset>
+        <country>USA</country>
+        <language>english</language>
+        <timezone></timezone>
+        <timezonecountry></timezonecountry>
+    </locale>
+    <lookandfeel>
+        <enablerssfeeds>true</enablerssfeeds>
+        <font>Default</font>
+        <rssedit></rssedit>
+        <skin>skin.confluence</skin>
+        <skincolors>SKINDEFAULT</skincolors>
+        <skintheme>SKINDEFAULT</skintheme>
+        <skinzoom>0</skinzoom>
+        <soundskin>SKINDEFAULT</soundskin>
+        <startupwindow>10000</startupwindow>
+    </lookandfeel>
+    <masterlock>
+        <lockcode>-</lockcode>
+        <maxretries>3</maxretries>
+        <startuplock>false</startuplock>
+    </masterlock>
+    <musicfiles>
+        <findremotethumbs>true</findremotethumbs>
+        <librarytrackformat></librarytrackformat>
+        <librarytrackformatright></librarytrackformatright>
+        <nowplayingtrackformat></nowplayingtrackformat>
+        <nowplayingtrackformatright></nowplayingtrackformatright>
+        <trackformat>[%N. ]%A - %T</trackformat>
+        <trackformatright>%D</trackformatright>
+        <usetags>true</usetags>
+    </musicfiles>
+    <musiclibrary>
+        <albumsscraper>metadata.albums.allmusic.com</albumsscraper>
+        <artistsscraper>metadata.artists.allmusic.com</artistsscraper>
+        <backgroundupdate>false</backgroundupdate>
+        <cleanup></cleanup>
+        <downloadinfo>false</downloadinfo>
+        <enabled>true</enabled>
+        <export></export>
+        <import></import>
+        <showcompilationartists>true</showcompilationartists>
+        <updateonstartup>false</updateonstartup>
+    </musiclibrary>
+    <musicplayer>
+        <autoplaynextitem>true</autoplaynextitem>
+        <crossfade>0</crossfade>
+        <crossfadealbumtracks>true</crossfadealbumtracks>
+        <queuebydefault>false</queuebydefault>
+        <replaygainavoidclipping>false</replaygainavoidclipping>
+        <replaygainnogainpreamp>89</replaygainnogainpreamp>
+        <replaygainpreamp>89</replaygainpreamp>
+        <replaygaintype>1</replaygaintype>
+        <visualisation>visualization.glspectrum</visualisation>
+    </musicplayer>
+    <network>
+        <httpproxypassword></httpproxypassword>
+        <httpproxyport>8080</httpproxyport>
+        <httpproxyserver></httpproxyserver>
+        <httpproxyusername></httpproxyusername>
+        <usehttpproxy>false</usehttpproxy>
+    </network>
+    <pictures>
+        <displayresolution>10</displayresolution>
+        <generatethumbs>true</generatethumbs>
+        <showvideos>false</showvideos>
+        <useexifrotation>true</useexifrotation>
+        <usetags>true</usetags>
+    </pictures>
+    <powermanagement>
+        <displaysoff>0</displaysoff>
+        <shutdownstate>0</shutdownstate>
+        <shutdowntime>0</shutdowntime>
+    </powermanagement>
+    <scrapers>
+        <langfallback>false</langfallback>
+        <moviesdefault>metadata.themoviedb.org</moviesdefault>
+        <musicvideosdefault>metadata.mtv.com</musicvideosdefault>
+        <tvshowsdefault>metadata.tvdb.com</tvshowsdefault>
+    </scrapers>
+    <screensaver>
+        <mode>screensaver.xbmc.builtin.dim</mode>
+        <preview></preview>
+        <settings></settings>
+        <time>3</time>
+        <usedimonpause>true</usedimonpause>
+        <usemusicvisinstead>true</usemusicvisinstead>
+    </screensaver>
+    <scrobbler>
+        <lastfmpass></lastfmpass>
+        <lastfmsubmit>false</lastfmsubmit>
+        <lastfmsubmitradio>false</lastfmsubmitradio>
+        <lastfmusername></lastfmusername>
+        <librefmpass></librefmpass>
+        <librefmsubmit>false</librefmsubmit>
+        <librefmusername></librefmusername>
+    </scrobbler>
+    <services>
+        <esallinterfaces>false</esallinterfaces>
+        <escontinuousdelay>25</escontinuousdelay>
+        <esenabled>true</esenabled>
+        <esinitialdelay>750</esinitialdelay>
+        <esmaxclients>20</esmaxclients>
+        <esport>9777</esport>
+        <esportrange>10</esportrange>
+        <upnprenderer>false</upnprenderer>
+        <upnpserver>false</upnpserver>
+        <webserver>false</webserver>
+        <webserverpassword></webserverpassword>
+        <webserverport>8080</webserverport>
+        <webserverusername>xbmc</webserverusername>
+        <webskin>webinterface.default</webskin>
+    </services>
+    <slideshow>
+        <displayeffects>true</displayeffects>
+        <shuffle>false</shuffle>
+        <staytime>5</staytime>
+    </slideshow>
+    <smb>
+        <winsserver></winsserver>
+        <workgroup>WORKGROUP</workgroup>
+    </smb>
+    <subtitles>
+        <charset>DEFAULT</charset>
+        <color>1</color>
+        <custompath pathversion="1"></custompath>
+        <font>arial.ttf</font>
+        <height>28</height>
+        <style>1</style>
+    </subtitles>
+    <system>
+        <playlistspath pathversion="1">special://profile/playlists/</playlistspath>
+    </system>
+    <videolibrary>
+        <actorthumbs>true</actorthumbs>
+        <backgroundupdate>false</backgroundupdate>
+        <cleanup></cleanup>
+        <enabled>true</enabled>
+        <export></export>
+        <flattentvshows>1</flattentvshows>
+        <import></import>
+        <seasonthumbs>true</seasonthumbs>
+        <showunwatchedplots>true</showunwatchedplots>
+        <updateonstartup>false</updateonstartup>
+    </videolibrary>
+    <videoplayer>
+        <adjustrefreshrate>false</adjustrefreshrate>
+        <displayresolution>10</displayresolution>
+        <errorinaspect>0</errorinaspect>
+        <highqualityupscaling>0</highqualityupscaling>
+        <maxspeedadjust>5.000000</maxspeedadjust>
+        <postprocess>0</postprocess>
+        <rendermethod>0</rendermethod>
+        <resamplequality>1</resamplequality>
+        <stretch43>0</stretch43>
+        <strictbinding>false</strictbinding>
+        <synctype>2</synctype>
+        <teletextenabled>true</teletextenabled>
+        <upscalingalgorithm>8</upscalingalgorithm>
+        <usedisplayasclock>false</usedisplayasclock>
+        <usepbo>true</usepbo>
+        <usevaapi>true</usevaapi>
+        <usevdpau>true</usevdpau>
+        <vdpau_allow_xrandr>false</vdpau_allow_xrandr>
+        <vdpaustudiolevel>false</vdpaustudiolevel>
+        <vdpauupscalinglevel>false</vdpauupscalinglevel>
+    </videoplayer>
+    <videoscreen>
+        <guicalibration></guicalibration>
+        <haslcd>false</haslcd>
+        <resolution>0</resolution>
+        <screen>-1</screen>
+        <screenmode>WINDOW</screenmode>
+        <testpattern></testpattern>
+        <vsync>3</vsync>
+    </videoscreen>
+    <weather>
+        <areacode1>USNY0996 - New York, NY</areacode1>
+        <areacode2>UKXX0085 - London, United Kingdom</areacode2>
+        <areacode3>JAXX0085 - Tokyo, Japan</areacode3>
+        <script>weather.xbmc.builtin</script>
+        <scriptsettings></scriptsettings>
+    </weather>
+    <window>
+        <height>745</height>
+        <width>1024</width>
+    </window>
+    <skinsettings>
+        <setting type="bool" name="skin.confluence.homepagehiderecentlyadded">false</setting>
+        <setting type="bool" name="skin.confluence.showbackgroundvideo">false</setting>
+        <setting type="bool" name="skin.confluence.showbackgroundvis">false</setting>
+        <setting type="bool" name="skin.confluence.homepageweatherinfo">false</setting>
+        <setting type="bool" name="skin.confluence.homepagemusicinfo">false</setting>
+        <setting type="bool" name="skin.confluence.homepagevideoinfo">false</setting>
+        <setting type="bool" name="skin.confluence.homescriptbutton1">false</setting>
+        <setting type="bool" name="skin.confluence.homescriptbutton2">false</setting>
+        <setting type="bool" name="skin.confluence.homescriptbutton3">false</setting>
+        <setting type="bool" name="skin.confluence.homescriptbutton4">false</setting>
+        <setting type="bool" name="skin.confluence.homescriptbutton5">false</setting>
+        <setting type="bool" name="skin.confluence.homescriptbutton6">false</setting>
+        <setting type="bool" name="skin.confluence.homemenunoweatherbutton">false</setting>
+        <setting type="bool" name="skin.confluence.showweatherfanart">false</setting>
+        <setting type="bool" name="skin.confluence.homemenunopicturesbutton">false</setting>
+        <setting type="bool" name="skin.confluence.homemenunomusicbutton">false</setting>
+        <setting type="bool" name="skin.confluence.homemenunovideosbutton">false</setting>
+        <setting type="bool" name="skin.confluence.homemenunomoviesbutton">false</setting>
+        <setting type="bool" name="skin.confluence.homemenunotvshowsbutton">false</setting>
+        <setting type="bool" name="skin.confluence.homemenunoprogramsbutton">false</setting>
+        <setting type="bool" name="skin.confluence.use_startup_playlist">false</setting>
+        <setting type="string" name="skin.confluence.homescriptbutton1_label"></setting>
+        <setting type="string" name="skin.confluence.homescriptbutton2_label"></setting>
+        <setting type="string" name="skin.confluence.homescriptbutton3_label"></setting>
+        <setting type="string" name="skin.confluence.homescriptbutton4_label"></setting>
+        <setting type="string" name="skin.confluence.homescriptbutton5_label"></setting>
+        <setting type="string" name="skin.confluence.homescriptbutton6_label"></setting>
+        <setting type="string" name="skin.confluence.home_custom_back_weather_folder"></setting>
+        <setting type="string" name="skin.confluence.weatherfanartdir"></setting>
+        <setting type="string" name="skin.confluence.home_custom_back_pictures_folder"></setting>
+        <setting type="string" name="skin.confluence.home_custom_back_music_folder"></setting>
+        <setting type="string" name="skin.confluence.home_custom_back_video_folder"></setting>
+        <setting type="string" name="skin.confluence.home_custom_back_movies_folder"></setting>
+        <setting type="string" name="skin.confluence.home_custom_back_tvshow_folder"></setting>
+        <setting type="string" name="skin.confluence.home_custom_back_programs_folder"></setting>
+        <setting type="string" name="skin.confluence.home_custom_back_settings_folder"></setting>
+        <setting type="string" name="skin.confluence.home_custom_back_tvshow_folde"></setting>
+    </skinsettings>
+</settings>

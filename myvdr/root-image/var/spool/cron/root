@@ -1,0 +1,1 @@
+11,41 * * * *	/usr/bin/ntpdate -u pool.ntp.org &> /dev/null

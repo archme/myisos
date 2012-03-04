@@ -1,0 +1,57 @@
+#!/bin/bash
+
+. /etc/rc.conf
+. /etc/rc.d/functions
+
+case $1 in
+start)
+        stat_busy "Starting Graphic Driver Installation"
+        #GFXINFO=$(hwinfo --short --gfxcard)
+        GFXINFO=$(lspci | grep VGA | head -n1)
+        echo "$GFXINFO"|grep -i 'ATI' &> /dev/null && export GFXCARD="ati"
+        echo "$GFXINFO"|grep -i 'nvidia' &> /dev/null && export GFXCARD="nvidia"
+        echo "$GFXINFO"|grep -i 'intel' &> /dev/null && export GFXCARD="intel"
+        echo "$GFXINFO"|grep -i 'virtualbox' &> /dev/null && export GFXCARD="virtualbox"
+
+        case $GFXCARD in
+           ati)
+                echo "ATI card detected, installing/configuring driver."
+                #yes | pacman -Sy catalyst
+                pacman -Q xf86-video-ati &> /dev/null || \
+                yes | pacman -Sy xf86-video-ati
+                ;;
+           nvidia)
+                echo "NVIDIA card detected, installing/configuring driver."
+                pacman -Q nvidia &> /dev/null || \
+                yes | pacman -Sy nvidia
+                ;;
+           intel)
+                echo "INTEL card detected, installing/configuring driver."
+                pacman -Q xf86-video-intel &> /dev/null || \
+                yes | pacman -Sy xf86-video-intel
+                ;;
+           virtualbox)
+                echo "VirtualBox card detected, installing/configuring driver."
+                pacman -Q virtualbox-archlinux-modules &> /dev/null || \
+                yes | pacman -Sy virtualbox-archlinux-modules virtualbox-archlinux-additions
+                ;;
+           *)
+                echo "UNKNOWN card detected, installing/configuring generic driver."
+                pacman -Q xf86-video-vesa &> /dev/null || \
+                yes | pacman -Sy xf86-video-vesa
+                ;;
+        esac
+        stat_done
+        ;;
+
+stop)
+        stat_busy "Stopping Graphic Driver Installation"
+        /bin/true
+        stat_done
+        ;;
+
+*)
+        echo "Usage: $0 {start|stop}" >&2
+        exit 1
+
+esac

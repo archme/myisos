@@ -1,0 +1,9 @@
+(if
+    (is (window_class) "Terminal")
+    (begin
+       (set_workspace 4)
+       (maximize)
+       (undecorate)
+       (opacity 100)
+    )
+)

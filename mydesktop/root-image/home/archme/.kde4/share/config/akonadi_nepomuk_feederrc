@@ -1,0 +1,8 @@
+[InitialIndexing]
+IndexCompatLevel=3
+
+[akonadi_nepomuk_email_feeder]
+Enabled=false
+
+[akonadi_nepomuk_feeder]
+DisableIdleDetection=false

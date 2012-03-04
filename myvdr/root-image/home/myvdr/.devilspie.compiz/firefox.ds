@@ -1,0 +1,11 @@
+(if
+    (and
+        (is (application_name) "Firefox")
+        (matches (window_name) "Mozilla Firefox$")
+    )
+    (begin
+       (set_viewport 3)
+       (maximize)
+       (undecorate)
+    )
+)

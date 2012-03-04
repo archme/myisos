@@ -1,0 +1,7 @@
+(if
+    (is (window_class) "xbmc.bin")
+    (begin
+       (set_viewport 2)
+       (fullscreen)
+    )
+)

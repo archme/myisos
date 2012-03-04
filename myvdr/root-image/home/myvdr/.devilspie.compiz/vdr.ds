@@ -1,0 +1,7 @@
+(if
+    (is (window_class) "VDR")
+    (begin
+       (set_viewport 1)
+       (fullscreen)
+    )
+)

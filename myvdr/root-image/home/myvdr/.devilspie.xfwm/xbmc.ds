@@ -1,0 +1,10 @@
+(if
+    (is (window_class) "xbmc.bin")
+    (begin
+       (set_workspace 2)
+       (maximize)
+       (undecorate)
+       (fullscreen)
+       (opacity 100)
+    )
+)

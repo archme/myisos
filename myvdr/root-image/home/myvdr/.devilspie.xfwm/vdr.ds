@@ -1,0 +1,10 @@
+(if
+    (is (window_class) "VDR")
+    (begin
+       (set_workspace 1)
+       (maximize)
+       (undecorate)
+       (above)
+       (opacity 100)
+    )
+)

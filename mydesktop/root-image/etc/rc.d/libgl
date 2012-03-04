@@ -1,0 +1,47 @@
+#!/bin/bash
+
+. /etc/rc.conf
+. /etc/rc.d/functions
+
+libglfiles='/usr/lib/libGL.so /usr/lib/libGL.so.1 /usr/lib/xorg/modules/extensions/libglx.so'
+nvver=$(pacman -Q nvidia | cut -d ' ' -f2 | cut -d '-' -f1)
+
+case $1 in
+start)
+        stat_busy "Symliniking libgl"
+        #GFXINFO=$(hwinfo --short --gfxcard)
+        GFXINFO=$(lspci | grep VGA | head -n1)
+        echo "$GFXINFO"|grep -i 'nvidia' &> /dev/null && export GFXCARD="nvidia"
+
+        case $GFXCARD in
+           nvidia)
+                echo "NVIDIA card detected"
+                cd /usr/lib
+                cp -f nvidia/libGL.so.${nvver} .
+                cd /usr/lib/xorg/modules/extensions
+                ln -sf ./libglx.so.${nvver} libglx.so
+                ldconfig
+                ;;
+           *)
+                echo "Other card detected"
+                cd /usr/lib
+                rm -f ./libglx.so.${nvver}
+                cd /usr/lib/xorg/modules/extensions
+                ln -sf ./libglx.xorg libglx.so
+                ldconfig
+                ;;
+        esac
+        stat_done
+        ;;
+
+stop)
+        stat_busy "Stopping Graphic Driver Installation"
+        /bin/true
+        stat_done
+        ;;
+
+*)
+        echo "Usage: $0 {start|stop}" >&2
+        exit 1
+
+esac

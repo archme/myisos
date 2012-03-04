@@ -1,0 +1,10 @@
+(if
+    (is (window_class) "Xephyr")
+    (begin
+       (set_workspace 5)
+       (maximize)
+       (undecorate)
+       (fullscreen)
+       (opacity 100)
+    )
+)

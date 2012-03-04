@@ -1,0 +1,20 @@
+screen -t devil
+stuff "/usr/bin/devilspie -a 2>&1 | tee $HOME/logs/devilspie.log^M"
+
+screen -t unclutter
+stuff "/usr/bin/unclutter -idle 2 2>&1 | tee $HOME/logs/unclutter.log^M"
+
+screen -t vdr
+stuff "/usr/bin/vdr-sxfe -f --hud 2>&1 | tee $HOME/logs/vdr-sxfe.log^M"
+
+screen -t firefox
+stuff "/usr/bin/firefox 2>&1 | tee $HOME/logs/firefox.log^M"
+
+screen -t xbmc
+stuff "/usr/bin/xbmc -fs 2>&1 | tee $HOME/logs/xbmc.log^M"
+
+screen -t terminal
+stuff "/usr/bin/terminal 2>&1 | tee $HOME/logs/terminal.log^M"
+
+#screen -t xephyr
+#stuff "/usr/bin/Xephyr -fullscreen :1 2>&1 | tee $HOME/logs/xephyr.log^M"

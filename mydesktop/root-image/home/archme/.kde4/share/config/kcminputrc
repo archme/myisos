@@ -1,0 +1,13 @@
+[$Version]
+update_info=mouse_cursor_theme.upd:kde3.4.99
+
+[Keyboard]
+ClickVolume=0
+KeyboardRepeating=0
+NumLock=2
+RepeatDelay=660
+RepeatRate=25
+
+[Mouse]
+cursorSize=0
+cursorTheme=Oxygen_Black

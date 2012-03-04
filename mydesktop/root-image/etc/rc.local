@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# /etc/rc.local: Local multi-user startup script.
+#
+
+## sync SYSTEM DATE and TIME with ntp server
+#/usr/bin/ntpdate -u pool.ntp.org &> /dev/null

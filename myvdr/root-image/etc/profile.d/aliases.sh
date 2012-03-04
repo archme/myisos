@@ -1,0 +1,10 @@
+alias ls="ls --color=auto"
+alias ll="ls -lh"
+alias la="ls -a"
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias mc='. /usr/lib/mc/mc-wrapper.sh'

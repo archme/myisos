@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>Air-black-Remix red</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=Strahlex">Strahlex</author>
+  <homepage>http://opendesktop.org/content/show.php?content=147630</homepage>
+  <licence>1</licence>
+  <version>1.0</version>
+  <rating>50</rating>
+  <downloads>40</downloads>
+  <installedfile>/home/archme/.kde4/share/apps/aurorae/themes//Air-black-remix-red/maximize.svg</installedfile>
+  <installedfile>/home/archme/.kde4/share/apps/aurorae/themes//Air-black-remix-red/metadata.desktop</installedfile>
+  <installedfile>/home/archme/.kde4/share/apps/aurorae/themes//Air-black-remix-red/close.svg</installedfile>
+  <installedfile>/home/archme/.kde4/share/apps/aurorae/themes//Air-black-remix-red/Air-black-remix-redrc</installedfile>
+  <installedfile>/home/archme/.kde4/share/apps/aurorae/themes//Air-black-remix-red/minimize.svg</installedfile>
+  <installedfile>/home/archme/.kde4/share/apps/aurorae/themes//Air-black-remix-red/CMakeLists.txt</installedfile>
+  <installedfile>/home/archme/.kde4/share/apps/aurorae/themes//Air-black-remix-red/decoration.svgz</installedfile>
+  <installedfile>/home/archme/.kde4/share/apps/aurorae/themes//Air-black-remix-red/metadata.desktop~</installedfile>
+  <installedfile>/home/archme/.kde4/share/apps/aurorae/themes//Air-black-remix-red/</installedfile>
+  <installedfile>/home/archme/.kde4/share/apps/aurorae/themes//</installedfile>
+  <id>147630</id>
+  <releasedate>2011-12-16</releasedate>
+  <summary>Aurorae theme based on Air-black</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m147630-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/147630-1.png</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/147630-Air-black-remix-red.tar.gz</payload>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

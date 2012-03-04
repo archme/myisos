@@ -1,0 +1,8 @@
+(if
+    (is (window_class) "Terminal")
+    (begin
+       (set_viewport 4)
+       (maximize)
+       (undecorate)
+    )
+)

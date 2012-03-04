@@ -1,0 +1,12 @@
+(if
+    (and
+        (is (application_name) "Firefox")
+        (matches (window_name) "Mozilla Firefox$")
+    )
+    (begin
+       (set_workspace 3)
+       (maximize)
+       (undecorate)
+       (opacity 100)
+    )
+)

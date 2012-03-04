@@ -1,0 +1,46 @@
+[$Version]
+update_info=kwin_focus2.upd:kwin_focus2,kwin_focus1.upd:kwin_focus1,kwin.upd:kde3.0r1,kwin.upd:kde3.2Xinerama,kwin_on_off.upd:kwin_on_off,kwin3_plugin.upd:kde3.2,kwin_remove_effects.upd:kwin4.7_effects
+
+[Compositing]
+AnimationSpeed=3
+Enabled=true
+OpenGLIsUnsafe=false
+
+[Desktops]
+Name_1=Arbeitsfläche 1
+Name_2=Arbeitsfläche 2
+Name_3=Arbeitsfläche 3
+Name_4=Arbeitsfläche 4
+Number=4
+Rows=2
+
+[Effect-BoxSwitch]
+TabBox=false
+TabBoxAlternative=false
+
+[Plugins]
+kwin4_effect_cubeslideEnabled=false
+kwin4_effect_fadedesktopEnabled=false
+kwin4_effect_slideEnabled=true
+
+[PopupInfo]
+PopupHideDelay=1000
+ShowPopup=false
+TextOnly=false
+
+[Style]
+BorderSize=1
+ButtonsOnLeft=MS
+ButtonsOnRight=HIA__X
+CustomButtonPositions=false
+PluginLib=kwin3_aurorae
+ShowToolTips=true
+
+[TabBox]
+LayoutName=thumbnails
+ListMode=0
+ShowTabBox=true
+
+[Windows]
+IgnoreFocusStealingClasses=kio_uiserver
+RollOverDesktops=true
